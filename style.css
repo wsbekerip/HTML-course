@@ -1,0 +1,30 @@
+body { background-color: rgba(105, 105, 105, 0.629); }
+
+p { color: green; }
+
+h1 {
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+
+.italic-text{
+    font-style: italic;
+    color: violet;
+}
+
+.gold-text, p, h2 { color: gold; }
+
+h2.gold-text {}
+
+#middle-par {
+    color: rgb(106, 102, 192);
+    background-color: #F9FADF;
+}
+
+label[for="mail-input"] { color: brown; }
+
+article h2 { background-color: blanchedalmond; }
+
+article > h2 { background-color: rgba(100, 148, 237, 0.695); }
+
+p + p { background-color: gainsboro; }
